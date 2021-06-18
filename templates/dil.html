@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style2.css') }}">
+    <title>Online Classes</title>
+</head>
+<body>
+   {% extends 'base2.html' %}
+
+{% block content %}
+    <h1>{% block title %} Dil's Online class {% endblock %}</h1>
+		<h2 style="background-color:tomato;font-size=36;"><em> best choice for your child </em> </h2>
+		
+			<ul>
+			<li>Subjects </li> 
+			<li>Grades </li> 
+			<li>Medium</li> 
+			</ul>
+	
+{% endblock %}
+</body>
+</html>
